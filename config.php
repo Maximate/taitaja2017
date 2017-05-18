@@ -1,5 +1,5 @@
 <?php //Kirjaudutaan tietokantaan
-$servername = "localhost";
+$servername = "MYSQLCONNSTR_localdb";
 $username = "azure";
 $password = "password";
 $dbname = "T2017051004";
