@@ -1,7 +1,7 @@
 <?php //Kirjaudutaan tietokantaan
 $servername = "localhost";
-$username = "T2017051004";
-$password = "7ff679a2f3";
+$username = "azure";
+$password = "password";
 $dbname = "T2017051004";
 
 // Luodaan yhteys
