@@ -3,7 +3,7 @@
 <!--Määritetään sivusto mobiiliresponsiiviseksi-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--Otetaan käyttöön sivun tyylitiedosto-->
-<link rel="stylesheet" type="text/css" href="tyyli/tyyli1.css">
+<link rel="stylesheet" type="text/css" href="tyyli1.css">
 <!--Määritetään sivuston faviconit ja teemaväri-->
 
 <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
