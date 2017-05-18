@@ -1,0 +1,388 @@
+body {
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	max-width:100%;
+	font-family: 'roboto';
+}
+
+img {
+	max-width: 100%;
+	max-height:100%;
+}
+
+.main a {
+	color: #005ea8;
+	text-decoration: none;
+}
+
+hr {
+	border: solid 5px #005ea8;
+	border-radius:10px;
+}
+
+#lahnappi {
+	background-color:#005ea8;
+	padding:10px;
+	border-radius:10px;
+	color:#ffffff;
+}
+
+.laskuri {
+	display:block;
+	margin:0 auto;
+	text-align: center;
+	border: solid 5px #005ea8;
+	border-radius:10px;
+}
+
+.puolikas {
+	display:inline-block;
+	width:45%;
+}
+
+.laatikko input, select {
+	border: 2px solid #005ea8;
+	border-radius:5px;
+}
+
+input, select {
+	width:100%;
+	padding:10px;
+	display:inline-block;
+	border: 2px solid #005ea8;
+	border-radius:10px;
+	box-sizing:border-box;
+}
+
+.sisalto {
+	margin: 0 auto;
+	width:80%;
+	font-size: 1.8em;
+}
+
+.sisalto img {
+	
+}
+
+.vasen  {
+	height:400px;
+	float:left;
+	width:42%;
+	padding:10px;
+	padding-right:50px;
+}
+
+.oikea {
+	height:400px;
+	float:left;
+	width:42%;
+	padding:10px;
+	padding-left:50px;
+}
+
+.otsikko {
+	text-align:center;
+	margin: 0 auto;
+}
+
+.valikko ul.navigointi a {
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: 1s;
+    transition: 1s;
+}
+
+.valikko ul.navigointi a:hover {
+    color: #fff;
+	text-decoration: none;
+}
+
+.valikko ul.navigointi {
+	padding: 0;
+	margin:0 auto;
+	list-style-type:none;
+	background-color: #fff;
+	text-align:center;
+}
+
+.valikko ul.navigointi li {
+	text-decoration: none;
+	-webkit-transition: 1s;
+    transition: 1s;
+	color: #fff;
+	background-color: #008fcb;
+	display:inline-block;
+	padding: 5px 5px 5px 5px;
+	text-align:center;
+}
+
+.valikko ul.navigointi li:hover {
+	background-color: #fff;
+	color: #008fcb;
+}
+
+#ylanavi {
+	background-color: #008fcb;
+}
+
+.valikko ul.navigointi li.navik {
+	display:none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #005ea8;
+	font-size:1.3em;
+}
+
+.piilossa {
+	display: none;
+}
+
+.valikko {
+	display:block;
+	background-color: #008fcb;
+	top:90px;
+	z-index:2;
+	width:100%;
+}
+
+.ylapalkki {
+	background-color: #008fcb;
+	height: 90px;
+	width:100%;
+	margin: 0 auto;
+	display:block;
+	z-index:100;
+}
+
+.logo {
+	max-width:400px;
+	display:block;
+	margin: 0 auto;
+}
+
+.main {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.footer {
+	position:fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #005ea8;
+	height:45px;
+}
+
+.ala_vasen {
+	display:inline-block;
+	text-align: left;
+	margin-right:20px;
+	margin-top:0px;
+	min-width:75%;
+	padding-left:100px;
+}
+
+.ala_oikea {
+	display:block;
+	float:right;
+	text-align: right;
+	margin-right:20px;
+	margin-top:0px;
+	width:10%;
+}
+
+.footer a:hover, a:visited, a:active, a:link {
+	color:#fff;
+	text-decoration: none;
+}
+
+#mobiili {
+	display:none;
+}
+
+.laskuri {
+	
+}
+
+@media screen and (max-width: 1270px){
+
+}
+
+@media screen and (max-width: 1030px){
+	#lomake {
+		min-width:65%;
+		max-width:70%;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	#mobiili {
+		display:inherit;
+	}
+	
+	#tietokone {
+		display:none;
+	}
+	
+	.vasen  {
+		height:250px;
+		float:none;
+		width:95%;
+		padding:10px;
+		padding-right:20px;
+	}
+
+	.oikea {
+		height:250px;
+		float:none;
+		width:95%;
+		padding:10px;
+		padding-left:20px;
+	}
+	
+	.sisalto {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 800px){
+	
+	.ylapalkki {
+		height: 75px;
+	}
+
+	.logo {
+		max-width:350px;
+	}
+	.valikko {
+		top:75px;
+	}
+
+	#lomake {
+		min-width:95%;
+		max-width:100%;
+	}
+	
+	.footer {
+		height:20px;
+		font-size:0.5em;
+	}
+
+	.ala_vasen {
+		margin-right:10px;
+		margin-top:0px;
+		min-width:60%;
+		padding-left:50px;
+	}
+
+	.ala_oikea {
+		margin-right:20px;
+		margin-top:0px;
+		width:10%;
+	}
+	.puolikas {
+		display:block;
+		width:95%;
+	}
+	
+}
+
+@media screen and (max-width: 680px){
+
+	.main {
+		width: 95%;
+		margin-right:5%;
+		margin-left: -2%;
+	}
+
+	.valikko ul.navigointi a:not(:first-child) {
+		display:none;
+	}
+
+	.valikko ul.navigointi li.navik {
+		float:right;
+		display: inline-block;
+	}
+
+@media screen and (max-width: 680px){
+	.valikko ul.navigointi.responsive {
+		position:relative;
+	}
+	
+	.valikko ul.navigointi.responsive li.navik {
+		position:absolute;
+		right:0;
+		top:0;
+	}
+	
+	.valikko ul.navigointi.responsive a {
+		display:inline;
+	}
+	
+	.sisalto {
+		font-size: 1.2em;
+	}
+	
+	.vasen  {
+		height:250px;
+		float:none;
+		width:95%;
+		padding:10px;
+		padding-right:20px;
+	}
+
+	.oikea {
+		height:250px;
+		float:none;
+		width:95%;
+		padding:10px;
+		padding-left:20px;
+	}
+	
+}
+
+@media screen and (max-width: 360px){
+	.teksti {
+		font-size: 2.0em;
+	}
+	
+	.sisalto {
+		font-size: 1.0em;
+	}
+}
+
+@media screen and (max-width: 300px){
+	.teksti {
+		font-size: 1.5em;
+	}
+	.ylapalkki {
+		height: 65px;
+	}
+
+	.valikko {
+		top:65px;
+	}
+	.main {
+		margin-left: -5%;
+	}
+}
+
+@media screen and (max-width: 210px){
+	.teksti {
+		font-size: 1.1em;
+	}
+	.ylapalkki {
+		height: 45px;
+	}
+
+	.valikko {
+		top:45px;
+	}
+	
+	.main {
+		margin-left: -8%;
+	}
+}
