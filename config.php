@@ -1,5 +1,5 @@
 <?php //Kirjaudutaan tietokantaan
-$servername = "127.0.0.1";
+$servername = "localhost";
 $username = "azure";
 $password = "password";
 $dbname = "T2017051004";
