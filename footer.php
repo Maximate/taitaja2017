@@ -4,5 +4,6 @@
 	</div>
 	<div class="ala_oikea">
 		<img src="kuvat/SUL_logo.jpg">
+		<img src="kuvat/taitaja2017.png">
 	</div>
 </div>
